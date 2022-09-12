@@ -10,3 +10,14 @@
 
 + Render and Send Files like HTML, etc.
 ```
+
+## Why Fastify?
+```
++ Regularly maintained
+
++ Fast and Quick Responses
+
++ Fully extensible via its hooks, plugins and decorators
+
++ In-built requests logging
+```

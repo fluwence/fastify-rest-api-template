@@ -12,7 +12,7 @@
 ```
 
 ## Why Fastify?
-```
+```diff
 + Regularly maintained
 
 + Fast and Quick Responses

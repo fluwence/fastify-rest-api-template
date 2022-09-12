@@ -1,5 +1,15 @@
 # Rest API with [Fastify](//npmjs.com/fastify)
 
+
+## General Information
+
+- `/get` directory contains all the files for get requests
+
+- `/post` directory contains all the files for post requests
+
+- `/public` directory contains public files, suppose `x` which will be available at `URL/static/x`
+
+
 ## Features:
 ```diff
 + Get Requests Routing

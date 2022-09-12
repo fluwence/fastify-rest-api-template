@@ -1,7 +1,7 @@
 {
-  "name": "fluwence-api",
+  "name": "fastify-rest-api-template",
   "version": "0.0.2",
-  "description": "Main API for Fluwence",
+  "description": "Rest API Template with FastifyJS (NodeJS env)",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {

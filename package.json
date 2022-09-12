@@ -1,0 +1,23 @@
+{
+  "name": "fluwence-api",
+  "version": "0.0.2",
+  "description": "Main API for Fluwence",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node ."
+  },
+  "keywords": [
+    "fluwence",
+    "api"
+  ],
+  "author": "snehasishcodes",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/static": "^6.5.0",
+    "chalk": "^4.1.2",
+    "fastify": "^4.5.3"
+  }
+}

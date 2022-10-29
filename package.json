@@ -1,7 +1,7 @@
 {
-  "name": "fastify-rest-api-template",
-  "version": "0.0.2",
-  "description": "Rest API Template with FastifyJS (NodeJS env)",
+  "name": "fluwence-main-api",
+  "version": "1.0.0",
+  "description": "FLuwence Main API - Last Updated: 26/10/2022",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "keywords": [
     "fluwence",
+    "main",
     "api"
   ],
   "author": "snehasishcodes",
@@ -18,6 +19,8 @@
   "dependencies": {
     "@fastify/static": "^6.5.0",
     "chalk": "^4.1.2",
-    "fastify": "^4.5.3"
+    "fastify": "^4.5.3",
+    "is-email": "^1.0.2",
+    "mongoose": "^6.7.0"
   }
 }

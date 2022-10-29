@@ -1,6 +1,7 @@
 const Fastify = require('fastify');
 const Chalk = require('chalk');
 const path = require('path');
+const mongoose = require('mongoose');
 
 const fastify = Fastify({
     logger: true
@@ -8,8 +9,9 @@ const fastify = Fastify({
 fastify.register(require('@fastify/static'), {
     root: path.join(__dirname, 'public'),
     prefix: '/static/',
-})
+});
 
+//mongoose.connect('URI').then(async(connection) => console.log(successLog('[DB]: Connection Successful')));
 
 const errorLog = Chalk.bold.red;
 const successLog = Chalk.bold.green;
